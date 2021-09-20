@@ -1,4 +1,4 @@
-# BottomSheetLibrary
+[![](https://jitpack.io/v/RohitashYogi/BottomSheetLibrary.svg)](https://jitpack.io/#RohitashYogi/BottomSheetLibrary)
 
 To get a Git project into your build:
 
