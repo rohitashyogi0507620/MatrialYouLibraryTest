@@ -1,5 +1,7 @@
 package com.Yogify.bottomsheetlibrary;
 
+import static com.yogify.bottomsheetdialog.ShowBottomsheet.ShowActivity;
+
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
@@ -14,5 +16,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         ShowBottomsheet.ShowBottomSheet(MainActivity.this,R.layout.bottomsheet,R.id.relativelayout);
+        ShowActivity(MainActivity.this);
     }
 }

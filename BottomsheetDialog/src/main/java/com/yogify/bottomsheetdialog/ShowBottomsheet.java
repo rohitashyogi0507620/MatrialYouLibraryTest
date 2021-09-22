@@ -1,6 +1,7 @@
 package com.yogify.bottomsheetdialog;
 
 import android.content.Context;
+import android.content.Intent;
 import android.content.res.Resources;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -24,4 +25,9 @@ public class ShowBottomsheet {
         window.findViewById(com.google.android.material.R.id.container).setFitsSystemWindows(false);
         bottomSheetDialog.show();
     }
+    public static void ShowActivity(Context context)
+    {
+     context.startActivity(new Intent(context,MainActivity.class));
+    }
+
 }
