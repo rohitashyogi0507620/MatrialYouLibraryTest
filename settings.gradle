@@ -4,7 +4,11 @@ dependencyResolutionManagement {
         google()
         mavenCentral()
         jcenter()
-        maven { url = "https://jitpack.io"}
+        maven {
+            url = "https://jitpack.io"
+            credentials { username authToken }
+
+        }
        // Warning: this repository is going to shut down soon
     }
 }

@@ -15,6 +15,7 @@ import com.google.android.material.datepicker.MaterialPickerOnPositiveButtonClic
 import com.google.android.material.navigationrail.NavigationRailMenuView;
 import com.google.android.material.navigationrail.NavigationRailView;
 import com.yogify.bottomsheetdialog.ShowBottomsheet;
+import com.yogify.matrialyou.MatrialYou;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -24,13 +25,23 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        NaviagitonRails();
-
+        // NaviagitonRails();
         // ShowBottomsheet.ShowBottomSheet(MainActivity.this,R.layout.bottomsheet,R.id.relativelayout);
         // ShowActivity(MainActivity.this);
-        // MatirialARangPicker();
+        //  MatirialARangPicker();
+        // MatrialDatePicker();
 
-        MatrialDatePicker();
+    }
+
+
+    public void fun_showDatePicker(View view) {
+        MatrialYou.ShowMatrialDatePicker(getApplicationContext(), getSupportFragmentManager());
+
+    }
+
+    public void fun_showDateRangePicker(View view) {
+        MatrialYou.MatirialARangPicker(getApplicationContext(), getSupportFragmentManager());
+
     }
 
     private void NaviagitonRails() {
