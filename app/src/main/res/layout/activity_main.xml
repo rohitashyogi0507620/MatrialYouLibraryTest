@@ -10,7 +10,6 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="fun_Removebudge"
         android:text="Remove number"
         android:textSize="25dp"
         app:layout_constraintBottom_toBottomOf="parent"
