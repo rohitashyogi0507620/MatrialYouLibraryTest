@@ -14,4 +14,3 @@ dependencyResolutionManagement {
 }
 rootProject.name = "BottomSheetLibrary"
 include ':app'
-include ':BottomsheetDialog'

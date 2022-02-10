@@ -34,8 +34,8 @@
             android:layout_height="wrap_content"
             android:onClick="fun_showDateRangePicker"
             android:text="Show Date Range Picker"
-
             ></Button>
+
     </LinearLayout>
 
     <LinearLayout
